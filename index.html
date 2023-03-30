@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Unit Converter</h1>
+    <form>
+      <label for="input">Enter a value:</label>
+      <input type="number" id="input" />
+      <label for="from">From:</label>
+      <select id="from">
+        <option value="meters">Meters</option>
+        <option value="kilometers">Kilometers</option>
+        <option value="miles">Miles</option>
+      </select>
+      <label for="to">To:</label>
+      <select id="to">
+        <option value="meters">Meters</option>
+        <option value="kilometers">Kilometers</option>
+        <option value="miles">Miles</option>
+      </select>
+      <button type="button" onclick="convert()">Convert</button>
+    </form>
+    <p id="output"></p>
+    <script src="script.js"></script>
+  </body>
+</html>
